@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/faw.png" type="image/x-icon">
+    <title>Домашка 16</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container"></div>            
+        </header>
+        <main class="main">
+            <div class="main__container">
+				<form class="main__form-one form-one" action="#">
+					<div class="form-one__text">Make an appointment</div>
+					<div class="form-one__entry-field">
+						<input class="form-one__name input" type="text" placeholder="Name" name="username" id="username" tabindex="1" autocomplete="off">
+						<input class="form-one__email input" type="email" placeholder="Email" name="email" id="email" tabindex="3" autocomplete="off">
+						<input class="form-one__phone input" type="tel" placeholder="Phone number" name="phone" id="phone" tabindex="2" autocomplete="off">
+						<select class="form-one__service input" name="service" tabindex="4">
+							<option value="1" disabled selected style="display: none;">Select Service</option>
+							<option value="2">One</option>
+							<option value="3">Two</option>
+							<option value="4">Three</option>
+							<option value="5">Four</option>
+							<option value="6">Five</option>
+							<option value="7">Six</option>
+						</select>
+						<textarea class="form-one__text-area input" name="textarea" id="textarea" placeholder="Tell us about your puppers include his/her name" tabindex="5"></textarea>
+					</div>
+					<button class="form-one__button" type="submit">Make an appointment</button>
+				</form>
+				<form class="main__form-two form-two" action="#">
+					<div class="form-two__title">Registered Customers</div>
+					<div class="form-two__subtitle">If you have an account, sign in with your email address.</div>
+					<div class="form-two__input input-form-two">
+						<div class="input-form-two__item item-form-two">
+							<label class="item-form-two__label" for="name-user">Email<span>*</span> </label>
+							<input class="item-form-two__input" id="name-user" type="text" placeholder="Your Name" autocomplete="off" required name="name">
+						</div>
+						<div class="input-form-two__item item-form-two">
+							<label class="item-form-two__label" for="pass">Password<span>*</span></label>
+							<input class="item-form-two__input" id="pass" type="password" placeholder="Your Password" autocomplete="off" required name="pass">
+						</div>
+					</div>
+					<div class="form-two__buttons">
+						<button class="form-two__singin" type="submit">Sign In</button>
+						<button class="form-two__forgot" type="submit">Forgot Your Password?</button>
+					</div>
+				</form>
+				<form class="main__form-three form-three"  action="#">
+					<div class="form-three__title">Summary</div>
+					<div class="form-three__subtitle">Estimate Shipping and Tax</div>
+					<div class="form-three__text form-three__text_grey">Enter your destination to get a shipping estimate.</div>
+					<div class="form-three__claster">
+						<label class="form-three__description" for="country">Country</label>
+						<select class="form-three__country" name="country" id="country">
+							<option selected value="1">Australia</option>
+							<option value="2">United Kingdom</option>
+							<option value="3">USA</option>
+							<option value="4">Russia</option>
+						</select>
+					</div>
+					<div class="form-three__claster">
+						<label class="form-three__description" for="state">State/Province</label>
+						<input class="form-three__input input-form-three" type="text" id="state" name="stat">
+					</div>
+					<div class="form-three__claster form-three__claster_margin-19">
+						<label class="form-three__description" for="zip">Zip/Postal Code</label>
+						<input class="form-three__input input-form-three" type="text" id="zip" name="zip">
+					</div>
+					<div class="form-three__claster-radio">
+						<div class="form-three__head">Standard Rate</div>
+						<input class="form-three__radio" type="radio" id="radiolist-one" name="radio">
+						<label class="form-three__description-radio" for="radiolist-one">Price may vary depending on the item/destination. Shop Staff will contact you. $21.00</label>
+					</div>
+					<div class="form-three__claster-radio">
+						<div class="form-three__head">Pickup from store</div>
+						<input class="form-three__radio" type="radio" id="radiolist-two" name="radio">
+						<label class="form-three__description-radio" for="radiolist-two">234 Street Adress City Address, 1234 $0.00</label>
+					</div>
+					<div class="form-three__claster form-three__claster_margin-19">
+						<div class="form-three__subtitle">Apply Discount Code</div>
+						<label class="form-three__description" for="discount">Enter discount code</label>
+						<input class="form-three__input input-form-three" type="text" id="discount" name="discount" placeholder="Enter Discount code">
+					</div>
+					<div class="form-three__buttons">
+						<button class="form-three__discount" type="submit">Apply Discount</button>
+					</div>
+				</form>
+			</div>
+        </main>
+        <footer class="footer">
+                <div class="footer__conteiner"></div>            
+        </footer>
+    </div>
+</body>
+</html>
